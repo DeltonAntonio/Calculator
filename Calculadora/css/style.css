@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(143, 14, 143);
+}
+table{
+    width: 500px;
+    margin: 200px auto;
+    padding: 30px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px;
+}
+input[type="text"]{
+    width: 420px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 40pt;
+    text-align: right;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(46, 46, 253);
+}
+.color-red{
+    background-color: rgb(231, 6, 6);
+    color: white;
+}
+.color-red:hover{
+    background-color: rgb(241, 35, 35);
+    cursor: pointer;
+}
